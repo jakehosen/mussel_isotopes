@@ -1,7 +1,7 @@
 library(dplyr)
 library(readr)
 
-df <- read_csv('/Users/jdh/Library/CloudStorage/GoogleDrive-jakehosen@gmail.com/My Drive/Mussels Project/R Code/mussel_isotopes/food.csv')
+df <- read_csv('https://raw.githubusercontent.com/jakehosen/mussel_isotopes/refs/heads/main/mixsiar_code/food.csv')
 
 colnames(df)
 
